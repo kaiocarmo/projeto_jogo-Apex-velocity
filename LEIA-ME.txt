@@ -1,0 +1,48 @@
+APEX VELOCITY 3.0 — MOTORSPORT
+================================
+
+VERSÃO
+- Jogo de corrida em Python com interface Tkinter.
+- Não usa bibliotecas externas de jogo.
+- O código usa renderização 2D com projeção em perspectiva; não é uma engine 3D real.
+
+COMO EXECUTAR NO WINDOWS
+1. Instale o Python 3 (marque a opção para adicionar o Python ao PATH).
+2. Extraia esta pasta.
+3. Dê dois cliques em executar_windows.bat ou execute no terminal:
+   python apex_velocity.py
+
+COMO EXECUTAR NO LINUX
+1. Tenha Python 3 e Tkinter instalados.
+2. Se o Tkinter estiver faltando, instale o pacote python3-tk pela distribuição.
+3. Execute:
+   python3 apex_velocity.py
+
+CONTROLES NA CORRIDA
+- W ou seta para cima: acelerar
+- S ou seta para baixo: frear
+- A / D ou setas esquerda / direita: esterçar
+- Espaço: freio de mão
+- N + W ou Shift + W: nitro quando disponível
+- ESC: pausar / continuar
+- M na pausa: voltar à garagem
+
+GARAGEM E OFICINA
+- Categorias separadas: CARROS e MOTOS.
+- Veículos: 5 carros e 3 motos.
+- Desempenho: motor, turbo, câmbio, pneus, freios, suspensão, escapamento e nitro.
+- Estética: pintura, widebody / kit, aerofólio, rodas, adesivos, neon e altura da suspensão.
+- Cada veículo mantém seus próprios ajustes.
+- Melhorias mecânicas custam créditos. Ganhe créditos ao terminar corridas; há bônus por vitória.
+- A pintura e os acessórios estéticos não custam créditos.
+
+CORRIDAS
+- Cinco circuitos com linha central própria e curvas para os dois lados.
+- A direção do veículo afeta a trajetória: é necessário esterçar para acompanhar as curvas.
+- Colisões com rivais causam perda de velocidade e deslocamento lateral.
+- Os adversários também podem colidir entre si.
+- Quatro dificuldades: Fácil, Normal, Difícil e PRO.
+- Três voltas por corrida.
+
+OBSERVAÇÃO
+Esta versão é uma evolução do protótipo Tkinter. A pista tem geometria curva e projeção em perspectiva, mas os veículos e o cenário continuam sendo desenhados em 2D. Para gráficos 3D completos, seria necessário portar o projeto para uma engine como Panda3D ou Ursina.

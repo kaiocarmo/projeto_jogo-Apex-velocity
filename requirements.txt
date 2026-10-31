@@ -1,0 +1,2 @@
+# Nenhuma dependência externa de Python.
+# Tkinter normalmente acompanha a instalação padrão do Python.
